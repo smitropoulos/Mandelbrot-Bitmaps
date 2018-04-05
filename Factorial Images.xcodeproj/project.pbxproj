@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7D8B232D2076072B0092E192 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B232C2076072B0092E192 /* main.cpp */; };
+		7D8B233720760B590092E192 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B233520760B590092E192 /* Bitmap.cpp */; };
+		7D8B233A207648580092E192 /* Mandelbrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B2338207648580092E192 /* Mandelbrot.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		7D8B23292076072B0092E192 /* Factorial Images */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Factorial Images"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8B232C2076072B0092E192 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7D8B2333207608210092E192 /* BitmapFileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapFileHeader.h; sourceTree = "<group>"; };
+		7D8B23342076087D0092E192 /* BitmapInfoHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapInfoHeader.h; sourceTree = "<group>"; };
+		7D8B233520760B590092E192 /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		7D8B233620760B590092E192 /* Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bitmap.h; sourceTree = "<group>"; };
+		7D8B2338207648580092E192 /* Mandelbrot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mandelbrot.cpp; sourceTree = "<group>"; };
+		7D8B2339207648580092E192 /* Mandelbrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mandelbrot.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,12 @@
 			isa = PBXGroup;
 			children = (
 				7D8B232C2076072B0092E192 /* main.cpp */,
+				7D8B2333207608210092E192 /* BitmapFileHeader.h */,
+				7D8B23342076087D0092E192 /* BitmapInfoHeader.h */,
+				7D8B233520760B590092E192 /* Bitmap.cpp */,
+				7D8B233620760B590092E192 /* Bitmap.h */,
+				7D8B2338207648580092E192 /* Mandelbrot.cpp */,
+				7D8B2339207648580092E192 /* Mandelbrot.h */,
 			);
 			path = "Factorial Images";
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D8B233A207648580092E192 /* Mandelbrot.cpp in Sources */,
+				7D8B233720760B590092E192 /* Bitmap.cpp in Sources */,
 				7D8B232D2076072B0092E192 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
