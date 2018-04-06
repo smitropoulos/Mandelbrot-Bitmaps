@@ -21,8 +21,6 @@
 
 using namespace std;
 
-namespace caveofprogramming {
-
 class FractalCreator {
 private:
 	int m_width;
@@ -56,7 +54,5 @@ public:
 	virtual ~FractalCreator();
 	void run(string name);
 };
-
-} /* namespace caveofprogramming */
 
 #endif /* FRACTALCREATOR_H_ */

@@ -1,9 +1,3 @@
-/*
- * BitmapFileHeader.h
- *
- *  Created on: Jun 21, 2015
- *      Author: johnpurcell
- */
 
 #ifndef BITMAPFILEHEADER_H_
 #define BITMAPFILEHEADER_H_
@@ -14,7 +8,6 @@ using namespace std;
 
 #pragma pack(2)
 
-namespace caveofprogramming {
 
 struct BitmapFileHeader {
 	char header[2] { 'B', 'M' };
@@ -23,6 +16,5 @@ struct BitmapFileHeader {
 	int32_t dataOffset;
 };
 
-}
 
 #endif /* BITMAPFILEHEADER_H_ */

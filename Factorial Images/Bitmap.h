@@ -1,9 +1,3 @@
-/*
- * Bitmap.h
- *
- *  Created on: Jul 2, 2015
- *      Author: johnpurcell
- */
 
 #ifndef BITMAP_H_
 #define BITMAP_H_
@@ -12,8 +6,6 @@
 #include <cstdint>
 #include <memory>
 using namespace std;
-
-namespace caveofprogramming {
 
 class Bitmap {
 private:
@@ -28,7 +20,5 @@ public:
 	bool write(string filename);
 	virtual ~Bitmap();
 };
-
-} /* namespace caveofprogramming */
 
 #endif /* BITMAP_H_ */

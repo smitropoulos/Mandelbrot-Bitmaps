@@ -13,7 +13,6 @@
 #include "Zoom.h"
 
 using namespace std;
-using namespace caveofprogramming;
 
 int main() {
 

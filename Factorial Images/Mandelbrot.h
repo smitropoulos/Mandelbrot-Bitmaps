@@ -8,7 +8,6 @@
 #ifndef MANDELBROT_H_
 #define MANDELBROT_H_
 
-namespace caveofprogramming {
 
 class Mandelbrot {
 public:
@@ -21,6 +20,5 @@ public:
 	static int getIterations(double x, double y);
 };
 
-} /* namespace caveofprogramming */
 
 #endif /* MANDELBROT_H_ */

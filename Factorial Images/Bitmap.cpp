@@ -1,19 +1,11 @@
-/*
- * Bitmap.cpp
- *
- *  Created on: Jul 2, 2015
- *      Author: johnpurcell
- */
 
 #include <fstream>
 #include "Bitmap.h"
 #include "BitmapInfoHeader.h"
 #include "BitmapFileHeader.h"
 
-using namespace caveofprogramming;
 using namespace std;
 
-namespace caveofprogramming {
 
 Bitmap::Bitmap(int width, int height) :
 		m_width(width), m_height(height), m_pPixels(
@@ -63,8 +55,4 @@ void Bitmap::setPixel(int x, int y, uint8_t red, uint8_t green, uint8_t blue) {
 	pPixel[2] = red;
 }
 
-Bitmap::~Bitmap() {
-	// TODO Auto-generated destructor stub
-}
-
-} /* namespace caveofprogramming */
+Bitmap::~Bitmap() {}

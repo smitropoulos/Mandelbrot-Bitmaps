@@ -10,16 +10,10 @@
 
 using namespace std;
 
-namespace caveofprogramming {
 
-Mandelbrot::Mandelbrot() {
-	// TODO Auto-generated constructor stub
+Mandelbrot::Mandelbrot() {}
 
-}
-
-Mandelbrot::~Mandelbrot() {
-	// TODO Auto-generated destructor stub
-}
+Mandelbrot::~Mandelbrot() {}
 
 int Mandelbrot::getIterations(double x, double y) {
 
@@ -41,4 +35,3 @@ int Mandelbrot::getIterations(double x, double y) {
 	return iterations;
 }
 
-} /* namespace caveofprogramming */

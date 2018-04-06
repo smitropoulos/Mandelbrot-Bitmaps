@@ -8,8 +8,6 @@
 #ifndef RGB_H_
 #define RGB_H_
 
-namespace caveofprogramming {
-
 struct RGB {
 	double r;
 	double g;
@@ -20,7 +18,6 @@ struct RGB {
 
 RGB operator-(const RGB& first, const RGB& second);
 
-} /* namespace caveofprogramming */
 
 
 

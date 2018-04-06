@@ -7,7 +7,6 @@ using namespace std;
 
 #pragma pack(2)
 
-namespace caveofprogramming {
 
 struct BitmapInfoHeader {
 	int32_t headerSize{40};
@@ -23,6 +22,5 @@ struct BitmapInfoHeader {
 	int32_t importantColors{0};
 };
 
-}
 
 #endif

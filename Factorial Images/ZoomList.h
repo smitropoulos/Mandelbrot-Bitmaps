@@ -14,8 +14,6 @@
 
 using namespace std;
 
-namespace caveofprogramming {
-
 class ZoomList {
 private:
 	double m_xCenter{0};
@@ -32,6 +30,5 @@ public:
 	pair<double, double> doZoom(int x, int y);
 };
 
-} /* namespace caveofprogramming */
 
 #endif /* ZOOMLIST_H_ */
